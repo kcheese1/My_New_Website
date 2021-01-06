@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'gatsby-starter-spectral', // <title>
+  siteTitle: 'kmill', // <title>
   manifestName: 'Spectral',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
