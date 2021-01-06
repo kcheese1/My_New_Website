@@ -23,5 +23,11 @@ module.exports = {
       name: 'Twitter',
       url: 'https://twitter.com/kirbert12',
     },
+    {
+      style: 'brands',
+      icon: 'fa-linkedin',
+      name: 'Linkedin',
+      url: 'https://www.linkedin.com/in/kolby-miller-463b8816b/',
+    }
   ],
 };
