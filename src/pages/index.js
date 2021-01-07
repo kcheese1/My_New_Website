@@ -8,8 +8,10 @@ import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
+
 const IndexPage = () => (
-  <Layout>
+  
+  <Layout> 
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
@@ -24,18 +26,42 @@ const IndexPage = () => (
             
           </li>
           <li>
-          <Scroll type="id" element="two">
+            <Scroll type="id" element="two">
+              <a href="/#" className="button primary">
+                Contact Me
+              </a>
+            </Scroll>
+            
+          </li>
+          <li>
+          <Scroll type="id" element="three">
               <a href="/#" className="button primary">
                 Experience
               </a>
           </Scroll>
           </li>
           <li>
-          <Scroll type="id" element="three">
+          <Scroll type="id" element="four">
               <a href="/#" className="button primary">
                 Skills
               </a>
           </Scroll>
+          </li>
+          <li>
+          <Scroll type="id" element="footer">
+              <a href="/#" className="button primary">
+                Media Links
+              </a>
+          </Scroll>
+          </li>
+        </ul>
+        <ul className="actions special">
+      
+          <li>
+              <a href='https://github.com/kcheese1' className="button primary2">
+                Check out my GitHub!!
+              </a>
+            
           </li>
         </ul>
       </div>
@@ -55,8 +81,19 @@ const IndexPage = () => (
         </header>
       </div>
     </section>
-
-    <section id="two" className="wrapper alt style2">
+    <section id="two" className="wrapper style6 special">
+      <div className="inner">
+        <header className="major">
+          <h2>
+            Contact Me
+          </h2>
+          <p>
+            Email: kolbymiller.cs@gmail.com
+          </p>
+        </header>
+      </div>
+    </section>
+    <section id="three" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
@@ -89,7 +126,7 @@ const IndexPage = () => (
       </section>
     </section>
 
-    <section id="three" className="wrapper style3 special">
+    <section id="four" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>Skills</h2>
@@ -118,6 +155,7 @@ const IndexPage = () => (
     </section>
 
   </Layout>
+  
 );
 
 export default IndexPage;
