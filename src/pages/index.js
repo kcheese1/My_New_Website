@@ -74,7 +74,7 @@ const IndexPage = () => (
             About Me
           </h2>
           <p>
-            Currently a DeSales University student studying Computer Science with a minor in Business.
+            Currently a DeSales University student studying Computer Science with a minor in Business. 
             <br />
             As of right now I am in search of an internship that pertains to my field.
           </p>
@@ -121,6 +121,21 @@ const IndexPage = () => (
           </h2>
           <p>
             Worked from December 2018-August 2019
+          </p>
+        </div>
+      </section>
+      <section className="spotlight">
+        <div className="image">
+          <img src={pic3} alt="" />
+        </div>
+        <div className="content">
+          <h2>
+            App Developer at TWG Companies
+            <br />
+            -Internship
+          </h2>
+          <p>
+            Worked from April 2021-July 2021
           </p>
         </div>
       </section>
