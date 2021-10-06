@@ -74,9 +74,7 @@ const IndexPage = () => (
             About Me
           </h2>
           <p>
-            Currently a DeSales University student studying Computer Science and I am Co-President of the DeSales Student Chapter of the Association for Computing Machinery.
-            <br />
-            As of right now I am in search of a job that pertains to my field.
+            Currently a DeSales University student studying Computer Science and I am Co-President of the DeSales Student Chapter of the Association for Computing Machinery. As of right now I am in search of a job that pertains to my field.
           </p>
         </header>
       </div>
