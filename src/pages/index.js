@@ -74,9 +74,9 @@ const IndexPage = () => (
             About Me
           </h2>
           <p>
-            Currently a DeSales University student studying Computer Science with a minor in Business. 
+            Currently a DeSales University student studying Computer Science and I am Co-President of the DeSales Student Chapter of the Association for Computing Machinery.
             <br />
-            As of right now I am in search of an internship that pertains to my field.
+            As of right now I am in search of a job that pertains to my field.
           </p>
         </header>
       </div>
@@ -164,6 +164,18 @@ const IndexPage = () => (
           </li>
           <li className="icon fa-flag">
             <h3>Systematic Image Server</h3>
+          </li>
+          <li className="icon fa-heart">
+            <h3>Swift</h3>
+          </li>
+          <li className="icon fa-flag">
+            <h3>React Native</h3>
+          </li>
+          <li className="icon fa-heart">
+            <h3>Unity</h3>
+          </li>
+          <li className="icon fa-flag">
+            <h3>Android Studio</h3>
           </li>
         </ul>
       </div>
