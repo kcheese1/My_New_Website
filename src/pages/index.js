@@ -145,34 +145,34 @@ const IndexPage = () => (
           <h2>Skills</h2>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
+          <li className="fas fa-laptop-code">
             <h3>Java</h3>
           </li>
-          <li className="icon solid fa-laptop">
+          <li className="fas fa-laptop">
             <h3>C++</h3>
           </li>
-          <li className="icon solid fa-code">
+          <li className="fas fa-code">
             <h3>Python</h3>
           </li>
-          <li className="icon solid fa-headphones-alt">
+          <li className="fas fa-bread-slice">
             <h3>Git</h3>
           </li>
-          <li className="icon fa-heart">
+          <li className="fas fa-folder">
             <h3>Microsoft Visual Studio</h3>
           </li>
-          <li className="icon fa-flag">
+          <li className="far fa-building">
             <h3>Systematic Image Server</h3>
           </li>
-          <li className="icon fa-heart">
+          <li className="fas fa-feather">
             <h3>Swift</h3>
           </li>
-          <li className="icon fa-flag">
+          <li className="fas fa-user-secret">
             <h3>React Native</h3>
           </li>
-          <li className="icon fa-heart">
+          <li className="fas fa-infinity">
             <h3>Unity</h3>
           </li>
-          <li className="icon fa-flag">
+          <li className="far fa-keyboard">
             <h3>Android Studio</h3>
           </li>
         </ul>
